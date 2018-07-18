@@ -107,7 +107,7 @@ local Enable = function(self, unit)
 		self:RegisterEvent('UNIT_FACTION', Path)
 		self:RegisterEvent('UNIT_MAXPOWER', Path)
 		self:RegisterEvent('UNIT_POWER', Path)
-		self:RegisterUnitEvent("UNIT_POWER", unit);
+		
 		self:RegisterUnitEvent("UNIT_MAXPOWER", unit);
 
 
